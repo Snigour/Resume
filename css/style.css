@@ -286,3 +286,116 @@ h6{
     height: 100%;
     background: #ff8bb3;
 }
+
+@media screen and (max-width: 1115px) {
+    .about.skills .box .percent .pink1 {
+      display: none;
+    }
+    .about.skills .box .percent .pink2 {
+      display: none;
+    }
+    .about.skills .box .percent .pink3 {
+      display: none;
+    }
+    .Language .percent .pink {
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 940px) {
+  .about .box .year_company {
+    min-width: 110px;
+    }
+    .about .box .text {
+        font-size: 14px;
+    }
+   .rightSide {
+        padding-left: 30px;
+    }
+    .container .top {
+        padding-bottom: 5px;
+    }
+  }
+
+
+  @media screen and (max-width: 860px) {
+    .about .box {
+        display: flex;
+        flex-direction: column;
+        }
+        .about .box .year_company {
+            margin-bottom: 5px;
+        }
+    }
+
+
+    @media screen and (max-width: 760px) {
+    .container .contentBox {
+            grid-template-columns: 1fr;
+            grid-auto-flow: dense;
+            
+        }
+        .rightSide:nth-child(even) {
+            grid-row: 1;
+            padding-left: 0;
+          }
+        
+        .leftSide:nth-child(odd) {
+            grid-row: 2;
+          }
+          .container .contentBox ul {
+            margin: 25px;
+            
+        }
+        .container .contentBox ul.Interest{
+            padding-left: 5em;
+        }
+        .about{
+            margin: 25px;
+        }
+        .leftSide {
+            display: flex;
+            flex-direction: column;
+            /* align-items: center; */
+        }
+
+        .contactInfo {
+            order: 4;
+            display: block;
+            margin-left: auto;
+            margin-right: auto 
+          }
+
+        .contactInfo h3 {
+            text-align: center;
+          }
+        .languageInfo {
+            order: 3;
+          }
+        
+        .interestsInfo {
+            order: 3;
+            display: block;
+            margin-left: auto;
+            margin-right: auto 
+            }
+        .interestsInfo h3 {
+            text-align: center;
+            width: min-content;
+            /* position: relative; */
+            }
+
+        .container .contentBox .interestsInfo h3::before{ 
+            content: " ";
+            background: #33CCFF;
+            width: 3px;
+            height: 20px;
+            /* линия смещена на 10px слева от текста*/
+            left: 220px;
+            /* включаем абсолютное позиционирование относительно блока с relative */
+            position: absolute;
+        }
+    }
+       
+
+  
