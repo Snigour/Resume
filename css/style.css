@@ -351,7 +351,7 @@ h6{
             padding-left: 5em;
         }
         .about{
-            margin: 25px;
+            margin: 0px;
         }
         .leftSide {
             display: flex;
@@ -366,36 +366,79 @@ h6{
             margin-right: auto 
           }
 
-        .contactInfo h3 {
+        /* .contactInfo h3 {
             text-align: center;
-          }
+          } */
         .languageInfo {
             order: 3;
           }
         
         .interestsInfo {
             order: 3;
-            display: block;
+            /* display: block;
             margin-left: auto;
-            margin-right: auto 
+            margin-right: auto  */
             }
-        .interestsInfo h3 {
-            text-align: center;
-            width: min-content;
-            /* position: relative; */
+            
+            .container .contentBox h3 {
+                margin-top: 35px;
             }
 
-        .container .contentBox .interestsInfo h3::before{ 
-            content: " ";
-            background: #33CCFF;
-            width: 3px;
-            height: 20px;
-            /* линия смещена на 10px слева от текста*/
-            left: 220px;
-            /* включаем абсолютное позиционирование относительно блока с relative */
-            position: absolute;
-        }
+            .marg1{
+                margin: 0px;
+            }
+            
     }
-       
 
-  
+        @media screen and (max-width: 576px) {
+            .container .top {
+                position: relative;
+                display: grid;
+                grid-template-columns: 1fr;
+                justify-content: center
+            }
+            .container .top .imgBx .box {
+                position: relative;
+                width: 100%;
+            }
+            .container .top .profileText{
+                text-align: center;
+            }
+            .container .top .profileText h3 {
+                font-size: 3.9em;
+            }
+            .container {
+                margin: 0px;
+                width: auto;
+            }
+            .container .contentBox ul.Interest {
+                padding-left: 2em;
+            }
+            .about {
+                margin: 5px;
+            }
+            
+            .container .contentBox h3 {
+             padding-left: 10px;   
+            }
+            .contactInfo {
+                text-align: center;
+            }
+            .contactInfo ul li{
+                
+                text-align: center;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .container .contactInfo h3{
+                border-left: 5px solid #ff8bb3;
+                padding-left: 11px;
+                line-height: 1em;
+                font-weight: 600;
+                color: #333;
+                letter-spacing: 0.1em;
+                margin-bottom: 20px;
+                margin-top: 50px;
+              }
+    }
