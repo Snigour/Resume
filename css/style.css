@@ -59,8 +59,8 @@ body {
 
 .container .top .profileText {
     position: relative;
-    padding: 40px;
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 
