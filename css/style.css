@@ -475,7 +475,7 @@ h6 {
         margin-bottom: 20px;
         margin-top: 50px;
         position: absolute;
-        left: 28%;
+        left: 25%;
         bottom: 83%;
     }
 
@@ -498,17 +498,24 @@ h6 {
         left: 33%;
         bottom: 93%;
     }
+  
+@media screen and (max-width: 390px) {
+    .container {
+        border-left: 0px solid #fff;
+        border-right: 0px solid #fff;
+    }
     .Language .percent .pink {
         display: block;
-        left: 185px;
+        left: 149contactInfo px;
     }
     .about.skills .box .percent .pink1 {
         display: block;
-        left: 112px;
+        left: 72px;
     }
     .about.skills .box .percent .pink2 {
         display: block;
-        left: 103px;
+        left: 66px;
     }
+}
   
 }
