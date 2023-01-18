@@ -74,7 +74,7 @@ body {
 
 .container .top .profileText h3 span {
     position: relative;
-    font-size: 0.5em;
+    font-size: 0.37em;
     font-weight: 300;
     top: -10px;
 }
@@ -290,6 +290,7 @@ h6 {
     background: #ff8bb3;
 }
 
+
 @media screen and (max-width: 1115px) {
     .about.skills .box .percent .pink1 {
         display: none;
@@ -306,6 +307,9 @@ h6 {
     .Language .percent .pink {
         display: none;
     }
+    /* .container .top .profileText h3 span p {
+        display: none;
+    } */
 }
 
 @media screen and (max-width: 940px) {
@@ -324,6 +328,9 @@ h6 {
     .container .top {
         padding-bottom: 5px;
     }
+    .container .top .profileText h3 span p {
+        font-size: 0.6em;
+    }
 }
 
 
@@ -335,6 +342,9 @@ h6 {
 
     .about .box .year_company {
         margin-bottom: 5px;
+    }
+    .container .top .profileText h3 span p {
+        display: none;
     }
 }
 
@@ -499,5 +509,9 @@ h6 {
     .about.skills .box .percent .pink2 {
         display: block;
         left: 103px;
+    }
+    .about.skills .box .percent .pink3 {
+        display: block;
+        left: 9px;
     }
 }
