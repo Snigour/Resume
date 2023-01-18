@@ -433,7 +433,7 @@ h6 {
 
     .container {
         margin: 0px;
-        width: auto;
+        width: 100%;
     }
 
     .container .contentBox {
@@ -498,15 +498,16 @@ h6 {
         left: 33%;
         bottom: 93%;
     }
-  
-@media screen and (max-width: 390px) {
     .container {
         border-left: 0px solid #fff;
         border-right: 0px solid #fff;
     }
+  
+@media screen and (max-width: 400px) {
+    
     .Language .percent .pink {
         display: block;
-        left: 149contactInfo px;
+        left: 149px;
     }
     .about.skills .box .percent .pink1 {
         display: block;
