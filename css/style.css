@@ -507,16 +507,16 @@ h6 {
     
     .Language .percent .pink {
         display: block;
-        left: 149px;
+        left: 8.6em;
     }
-    .about.skills .box .percent .pink1 {
+    /* .about.skills .box .percent .pink1 {
         display: block;
         left: 72px;
     }
     .about.skills .box .percent .pink2 {
         display: block;
         left: 66px;
-    }
+    } */
 }
   
 }
